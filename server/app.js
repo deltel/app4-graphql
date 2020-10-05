@@ -9,7 +9,7 @@ const app = express();
 // allow cross-origin requests
 app.use(cors());
 
-mongoose.connect('mongodb://test:test@localhost:2717/graphql1?authSource=admin&w=1',
+mongoose.connect('mongodb://username:password@localhost:port/graphql1?authSource=admin&w=1',
     {
         useNewUrlParser: true,
         useUnifiedTopology: true
